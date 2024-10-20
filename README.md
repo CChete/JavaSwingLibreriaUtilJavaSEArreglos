@@ -32,6 +32,7 @@ Asignación de alumnos a curso: Permitirá asignar hasta un máximo de 10 alumno
 Mi Perfil: Mostrará sus datos personales, nombre, carné, además del nombre de la universidad y su sede (Mariano Gálvez, Centro de San José Pinula)
 Carga masiva de profesores: Se contará con una opción que permitirá cargar un archivo en formato CSV (separado por comas) (se debe permitir a través de un JFileChooser la ubicación donde se encuentra el archivo), en él se ingresará la información del profesor en cada uno de los espacios de la siguiente forma (ejemplo de un archivo profesores.csv, proporcionado junto con el enunciado, el archivo en la calificación puede tener cualquier nombre pero debe ser CSV):
 
+
 usuario,nombre,apellido,contraseña
 pro1,Jim,Carrey,1234567Aa!
 pro2,Adam,Sandler,1234567Bb!
@@ -65,6 +66,7 @@ Carga masiva de alumnos: Se contará con una opción que permitirá cargar un ar
 Una vez cargado el archivo se podrá iniciar sesión con cualquier alumno que se haya cargado.
 Generación de archivo XML de alumnos: una vez se haya hecho la carga masiva de los alumnos, y también se hayan agregado más profesores al listado a través de su aplicación, se podrá generar un archivo XML de alumnos con el mismo formato anteriormente dado para poder cargarlo, se deberá pedir el nombre que queremos darle al archivo y la ubicación donde queremos guardarlos. Si un archivo ya existe este se debe de sobreescribir, y el archivo se almacenarán todos los profesores que estén almacenados en memoria.
 Carga masiva de cursos: para cargar de forma masiva los cursos se harán uso de archivos con formato .js, y el contenido vendrá en formato JSON (se debe permitir a través de un JFileChooser la ubicación donde se encuentra el archivo), en él se ingresará la información del curso en cada uno de los espacios de la siguiente forma (ejemplo de un archivo cursos.js, proporcinado junto con el enunciado, el archivo en la calificación puede tener cualquier nombre pero debe ser JS):
+
 [
 {
 "id":1,
